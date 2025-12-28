@@ -31,7 +31,7 @@ latitude,longitude
 ```
 x,y
 658247.32,4538011.45
-...
+```
 
 ## Tech Stack
 - Python 3.x
