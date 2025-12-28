@@ -8,6 +8,31 @@ A Python utility for converting coordinates between WGS84 (GPS) and ITM (Turkish
 - Simple command-line interface
 - Easy to integrate into other projects
 
+## 🚀 Batch Conversion (NEW!)
+
+Convert multiple coordinates at once using CSV files.
+
+### Usage
+```python
+from batch_converter import batch_wgs84_to_itm
+
+# Convert multiple GPS coordinates to ITM
+batch_wgs84_to_itm('input_wgs84.csv', 'output_itm.csv')
+```
+
+### Input CSV Format
+```
+latitude,longitude
+41.0082,28.9784
+39.9208,32.8541
+```
+
+### Output
+```
+x,y
+658247.32,4538011.45
+...
+
 ## Tech Stack
 - Python 3.x
 - pyproj (coordinate transformation library)
