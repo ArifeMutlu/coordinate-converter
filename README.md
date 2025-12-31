@@ -59,6 +59,23 @@ print(f"ITM: {x}, {y}")
 lat, lon = itm_to_wgs84(x, y)
 print(f"WGS84: {lat}, {lon}")
 ```
+## 🧪 Testing
+
+Run tests:
+```bash
+pip install pytest
+python -m pytest test_converter.py -v
+```
+
+All tests should pass ✅
+
+### Test Coverage
+
+- ✅ Valid coordinate conversions
+- ✅ Invalid input validation
+- ✅ Round-trip accuracy
+- ✅ Coordinate precision checks
+```
 
 ## Background
 This tool was created to simplify coordinate conversions for GIS projects in Turkey. The ITM (Turkish National Grid) is commonly used in Turkish geospatial applications.
