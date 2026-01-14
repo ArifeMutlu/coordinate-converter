@@ -7,17 +7,16 @@
 
 *Professional coordinate conversion tool for Turkish National Grid (ITM)*
 
-
 A Python utility for converting coordinates between WGS84 (GPS) and ITM (Turkish National Grid System).
-```
-## Features
 
+### Features
+```
 - Convert WGS84 (lat/lon) to ITM (x/y)
 - Convert ITM (x/y) to WGS84 (lat/lon)
 - Simple command-line interface
 - Easy to integrate into other projects
-
-## 🚀 Batch Conversion (NEW!)
+```
+### 🚀 Batch Conversion (NEW!)
 
 Convert multiple coordinates at once using CSV files.
 
