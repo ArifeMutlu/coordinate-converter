@@ -96,7 +96,7 @@ All tests should pass ✅
 ## 📚 Examples
 
 See the `examples/` folder for detailed usage examples:
-
+````
 ### Basic Usage
 ```bash
 python examples/basic_usage.py
