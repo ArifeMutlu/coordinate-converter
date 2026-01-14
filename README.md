@@ -1,5 +1,13 @@
 # Coordinate Converter 🗺️
 
+![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![PyProj](https://img.shields.io/badge/pyproj-3.6.1-orange.svg)
+![Maintained](https://img.shields.io/badge/maintained-yes-brightgreen.svg)
+
+*Professional coordinate conversion tool for Turkish National Grid (ITM)*
+```
+
 A Python utility for converting coordinates between WGS84 (GPS) and ITM (Turkish National Grid System).
 
 ## Features
